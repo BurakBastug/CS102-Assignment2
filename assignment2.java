@@ -21,16 +21,5 @@ public class assignment2 {
 
     }
 
-    public static void main(String[] args) {
-        int arr[] = {5,10,15,20,25};
-
-        System.out.println(Arrays.toString(findDifferenceFromAverage(arr)));
-
-
-
-
-
-
-
- }
+    
 }
