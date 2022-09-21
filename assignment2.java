@@ -10,11 +10,5 @@ public class assignment2 {
         average = sum / arr.length;
         return average;
     }
-
-    public static void main(String[] args) {
-        int[] arr = {-1,5,7,10,-7};
-        System.out.println(findAverage(arr));
-
-}
 }
 
