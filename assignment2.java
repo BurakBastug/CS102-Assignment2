@@ -1,4 +1,13 @@
     
+    
+/**
+ * assignment2
+ */
+
+
+
+public class assignment2 {
+
     public static double findAverage(int [] arr){
         double average = 0;
         double sum = 0; 
@@ -9,13 +18,6 @@
         average = sum / arr.length;
         return average;
     }
-/**
- * assignment2
- */
-public class assignment2 {
-}
-
-public class assignment2 {
 
     public static int findMin(int[] arr){
         int min = 101;
