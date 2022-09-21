@@ -115,25 +115,25 @@ public class assignment2 {
                 System.out.println("Please enter a valid choice!");
             }
             else if(choice == 1){
-                System.err.println("The minimum is: " + findMin(randArr));
+                System.out.println("The minimum is: " + findMin(randArr));
             }
             else if(choice == 2){
-                System.err.println("The maximum is: " + findMax(randArr));
+                System.out.println("The maximum is: " + findMax(randArr));
             }
             else if(choice == 3){
-                System.err.println("The average is: " + findAverage(randArr));
+                System.out.println("The average is: " + findAverage(randArr));
             }
             else if(choice == 4){
-                System.err.println("Elements' difference from average is: " + Arrays.toString(findDifferenceFromAverage(randArr)));
+                System.out.println("Elements' difference from average is: " + Arrays.toString(findDifferenceFromAverage(randArr)));
             }
             else if(choice == 5){
-                System.err.println("The sum of elements with odd indexes is: " + sumOdd(randArr));
+                System.out.println("The sum of elements with odd indexes is: " + sumOdd(randArr));
             }
             else if(choice == 6){
-                System.err.println("The sum of elements with even indexes: " + sumEven(randArr));
+                System.out.println("The sum of elements with even indexes: " + sumEven(randArr));
             }
             else if(choice == 7){
-                System.err.println(Arrays.toString(randArr));
+                System.out.println(Arrays.toString(randArr));
             }
         }
         while(choice != 8);
