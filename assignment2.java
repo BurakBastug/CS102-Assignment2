@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Arrays;
     
     public static double findAverage(int [] arr){
@@ -38,7 +39,21 @@ public class assignment2 {
 
     }
 
+        int arr[] = {5,10,15,20,25};
+
+        System.out.println(Arrays.toString(findDifferenceFromAverage(arr)));
+=======
+>>>>>>> parent of a974b56... Merge pull request #2 from goktugsyildirim/gok2s
+
+
+
+
+
+
+
+ }
     
+    public static void main(String[] args) {
 }
 
     public static int findMin(int[] arr){
